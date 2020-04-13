@@ -13,13 +13,15 @@ public class RomCalc {
         boolean numValid = true;
         boolean opValid = true;
         int leftInt, rightInt;
-        
+        int left, right;
         int resultInt = 0;
-        
+        int resint = 0;
         leftInt = RomanNumerals.parse(leftNumber.toUpperCase());
         rightInt = RomanNumerals.parse(rightNumber.toUpperCase());
           
-        
+        left = converterroman.parseDecimalNumber(leftNumber.toUpperCase());
+        right = converterroman.parseDecimalNumber(rightNumber.toUpperCase());
+      
      
 
         if (operation.equals("+") || operation.equals("-") || operation.equals("*") ||
@@ -31,8 +33,18 @@ public class RomCalc {
 
         }
           
-       
-         
+      if(operation.equals("+")){
+                resInt=left+right;
+            }
+           else if(operation.equals("*")){
+                resInt=left*right;
+            }
+        else if(operation.equals("/")){
+            resInt=left/right;
+        }
+        else if(operation.equals("-")){
+            resInt=left-right;
+        }
         if (numValid == true && opValid == true) {
 
             
@@ -50,7 +62,12 @@ public class RomCalc {
             else if (operation.equals("/")) {
                 resultInt = leftInt / rightInt;
             }
-      
+      if(left <= 0  || left >= 10 || right <= 0 || right >= 10){
+                    System.out.print("");
+                }
+                else{
+                    System.out.print(resInt);
+                }
     if(opValid && numValid) {
 
                
@@ -96,16 +113,11 @@ public class RomCalc {
                 operation = scanner.next();
                 rightNumber = scanner.next();
                
-              
-            }
-            
-            catch (NoSuchElementException e) {
-                number1=scanner.nextInt();
-                number2=scanner.nextInt();
-                System.out.print("Результат"+(number1+number2));
-                System.out.print("Результат"+(number1*number2));
-                System.out.print("Результат"+(number1/number2));
-                System.out.print("Результат"+(number1-number2));
+             }
+ 
+            catch (NumberFormatException e) {
+               
+                System.out.println();
                 continue;
             }
             
