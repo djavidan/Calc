@@ -15,7 +15,7 @@ public class RomCalc {
         int leftInt, rightInt;
         int left, right;
         int resultInt = 0;
-        int resint = 0;
+        int resInt = 0;
         leftInt = RomanNumerals.parse(leftNumber.toUpperCase());
         rightInt = RomanNumerals.parse(rightNumber.toUpperCase());
           
