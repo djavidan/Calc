@@ -1,4 +1,4 @@
-class RomanNumerals {
+public class RomanNumerals {
    
     public static String format(int value) {
         
