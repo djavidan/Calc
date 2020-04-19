@@ -129,6 +129,54 @@ if(resultInt==resInt){
             System.out.print("Erorr");
                 System.exit(0);
         }
+        if(resInt==left+leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==right+leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==right+rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==left-leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==right-leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==right-rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==left*leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==right*leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==right*rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==left/leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==right/leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==right/rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
         
     }
 
