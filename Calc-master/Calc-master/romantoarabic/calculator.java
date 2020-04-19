@@ -77,11 +77,59 @@ public class RomCalc {
                     System.out.println(RomanNumerals.format(resultInt));
                 }
             }
-if(resInt==resultInt){
-System.err.print("Erorr");
-System.exit(0);
-}
- 
+if(resultInt==resInt){
+                System.out.print("Erorr");
+                System.exit(0);
+            }
+        if(resultInt==left+leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==right+leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==right+rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==left-leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==right-leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==right-rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==left*leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==right*leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==right*rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==left/leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==right/leftInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==right/rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        
     }
 
     
