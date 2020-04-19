@@ -77,8 +77,10 @@ public class RomCalc {
                     System.out.println(RomanNumerals.format(resultInt));
                 }
             }
-
-        }
+if(resInt==resultInt){
+System.err.print("Erorr");
+System.exit(0);
+}
  
     }
 
