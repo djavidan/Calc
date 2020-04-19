@@ -1,13 +1,11 @@
 public class converterroman 
 
 { 
-
-    // This function returns value of a Roman symbol 
 public static int parseDecimalNumber(String number) {
         try {
             return Integer.valueOf(number);
         } catch (NumberFormatException e) {
-            return 1;
+            return -1;
         }
     }
   public static  int value(char r) 
