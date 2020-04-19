@@ -72,7 +72,7 @@ public class RomCalc {
 
                
                 if (leftInt <= 0 || leftInt >= 10 || rightInt <= 0 || rightInt >= 10 ) {
-                    System.out.println("result out of range");
+                    System.out.println("");
                 } else {
                     System.out.println(RomanNumerals.format(resultInt));
                 }
