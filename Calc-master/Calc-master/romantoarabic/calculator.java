@@ -77,7 +77,8 @@ public class RomCalc {
                     System.out.println(RomanNumerals.format(resultInt));
                 }
             }
-if(resultInt==resInt){
+
+        if(resultInt==resInt){
                 System.out.print("Erorr");
                 System.exit(0);
             }
@@ -93,6 +94,10 @@ if(resultInt==resInt){
             System.out.print("Erorr");
                 System.exit(0);
         }
+        if(resultInt==left+rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
         if(resultInt==left-leftInt){
             System.out.print("Erorr");
                 System.exit(0);
@@ -102,6 +107,10 @@ if(resultInt==resInt){
                 System.exit(0);
         }
         if(resultInt==right-rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==left-rightInt){
             System.out.print("Erorr");
                 System.exit(0);
         }
@@ -117,6 +126,10 @@ if(resultInt==resInt){
             System.out.print("Erorr");
                 System.exit(0);
         }
+        if(resultInt==left*rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
         if(resultInt==left/leftInt){
             System.out.print("Erorr");
                 System.exit(0);
@@ -126,6 +139,10 @@ if(resultInt==resInt){
                 System.exit(0);
         }
         if(resultInt==right/rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resultInt==left/rightInt){
             System.out.print("Erorr");
                 System.exit(0);
         }
@@ -141,6 +158,10 @@ if(resultInt==resInt){
             System.out.print("Erorr");
                 System.exit(0);
         }
+        if(resInt==left+rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
         if(resInt==left-leftInt){
             System.out.print("Erorr");
                 System.exit(0);
@@ -150,6 +171,10 @@ if(resultInt==resInt){
                 System.exit(0);
         }
         if(resInt==right-rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
+        if(resInt==left-rightInt){
             System.out.print("Erorr");
                 System.exit(0);
         }
@@ -165,6 +190,10 @@ if(resultInt==resInt){
             System.out.print("Erorr");
                 System.exit(0);
         }
+        if(resInt==left*rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
         if(resInt==left/leftInt){
             System.out.print("Erorr");
                 System.exit(0);
@@ -177,7 +206,10 @@ if(resultInt==resInt){
             System.out.print("Erorr");
                 System.exit(0);
         }
-        
+        if(resInt==left/rightInt){
+            System.out.print("Erorr");
+                System.exit(0);
+        }
     }
 
     
