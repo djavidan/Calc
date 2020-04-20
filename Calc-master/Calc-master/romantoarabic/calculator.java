@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class RomCalc {
+public class calculator {
    
 
     
