@@ -62,6 +62,7 @@ public class calculator {
             else if (operation.equals("/")) {
                 resultInt = leftInt / rightInt;
             }
+}
       if(left <= 0  || left >= 10 || right <= 0 || right >= 10){
                     System.out.print("");
                 }
