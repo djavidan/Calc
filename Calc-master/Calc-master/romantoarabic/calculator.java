@@ -78,137 +78,21 @@ public class calculator {
                 }
             }
 
-        if(resultInt==resInt){
+        if(right==rightInt){
                 System.out.print("Erorr");
                 System.exit(0);
             }
-        if(resultInt==left+leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
+        else if(left==leftInt){
+            System.err.print("Erorr");
+           System.exit(0);
         }
-        if(resultInt==right+leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
+    else if(left==rightInt){
+            System.err.print("Erorr");
+           System.exit(0);
         }
-        if(resultInt==right+rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==left+rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==left-leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==right-leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==right-rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==left-rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==left*leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==right*leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==right*rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==left*rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==left/leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==right/leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==right/rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resultInt==left/rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==left+leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==right+leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==right+rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==left+rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==left-leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==right-leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==right-rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==left-rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==left*leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==right*leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==right*rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==left*rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==left/leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==right/leftInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==right/rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
-        }
-        if(resInt==left/rightInt){
-            System.out.print("Erorr");
-                System.exit(0);
+   else if(right==leftInt){
+            System.err.print("Erorr");
+           System.exit(0);
         }
     }
     }
