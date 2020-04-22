@@ -1,4 +1,4 @@
-package Calc-master/romantoarabic;
+package Calc-master.romantoarabic;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.NoSuchElementException;
