@@ -1,5 +1,11 @@
 public class RomanNumerals {
-   
+   public static int parseDecimalNumber(String number) {
+        try {
+            return Integer.valueOf(number);
+        } catch (NumberFormatException e) {
+            return -1;
+        }
+    }
     public static String format(int value) {
         
         String romanNum = "";
