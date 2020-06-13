@@ -105,7 +105,7 @@ public class calculator {
         while (true) {
            
             System.out.print("Введите число: ");
-            int number1, number2;
+           
             final String line = reader.readLine();
             if (line.length() == 0) {
                 System.out.println("done");
