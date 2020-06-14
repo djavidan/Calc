@@ -103,10 +103,8 @@ public class calculator {
         final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         
         while (true) {
-           
             System.out.print("Введите число: ");
-           
-            final String line = reader.readLine();
+           final String line = reader.readLine();
             if (line.length() == 0) {
                 System.out.println("done");
                 break;
@@ -116,7 +114,6 @@ public class calculator {
             System.out.print("Результат: ");
             final Scanner scanner = new Scanner(line);
             final String leftNumber, operation, rightNumber;
-           System.out.println();
             try {
                 leftNumber = scanner.next();
                 operation = scanner.next();
